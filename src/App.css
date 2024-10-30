@@ -1,0 +1,79 @@
+body {
+  background-color: black;
+  background-image: url('notepad.jpeg');
+  background-size: contain;
+  background-position: center 50%;
+  top: 20%;
+  background-repeat: no-repeat;
+  font-family: 'Arial', sans-serif;
+  color: white;
+}
+
+.app {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  color: black;
+  margin-bottom: 20px;
+  font-family: 'Verdana', sans-serif;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+  width: calc(70% - 22px);
+  border: 2px solid #ffcc00;
+  border-radius: 4px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #ff9900;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #ffcc00;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Arial', sans-serif;
+}
+
+button:hover {
+  background-color: #ff9900;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+li:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+span {
+  flex: 1;
+  cursor: pointer;
+  text-decoration: none;
+}
